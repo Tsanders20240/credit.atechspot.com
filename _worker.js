@@ -1,0 +1,1 @@
+export default{async fetch(request,env){const url=new URL(request.url);if(url.pathname.startsWith('/api/'))return fetch(request);if(url.hostname==='credit.atechspot.com'){const p=url.pathname==='/'?'/credit/index.html':'/credit'+url.pathname;return env.ASSETS.fetch(new Request(new URL(p,url.origin),request));}return env.ASSETS.fetch(request);}};
