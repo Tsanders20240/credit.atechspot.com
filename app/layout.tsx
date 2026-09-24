@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "A+ Credit Restoration | Credit Education & Report Review",
-  description: "Credit education, report review, factual dispute-document support, consumer resources, and realistic action planning from A+ Techucation LLC.",
+  title: "A+ Credit Education Center | Free Reports, Rights & Planning Tools",
+  description: "Free credit education, report guidance, consumer rights and on-device planning tools from A+ Techucation LLC. No paid credit-repair service or score promise.",
   icons: { icon: "/atechucation-logo-enhanced.png" },
 };
 
